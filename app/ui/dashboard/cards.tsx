@@ -13,22 +13,22 @@ const iconMap = {
   invoices: InboxIcon,
 };
 
-export default async function CardWrapper({card}) {
-  return (
-    <>
-      {/* NOTE: comment in this code when you get to this point in the course */}
+// export default async function CardWrapper({card}) {
+//   return (
+//     <>
+//       {/* NOTE: comment in this code when you get to this point in the course */}
 
-      {<Card title="Collected" value={card.totalPaidInvoices} type="collected" />}
-      {<Card title="Pending" value={card.totalPendingInvoices} type="pending" />}
-      {<Card title="Total Invoices" value={card.numberOfInvoices} type="invoices" />}
-      {<Card
-        title="Total Customers"
-        value={card.numberOfCustomers}
-        type="customers"
-      />}
-    </>
-  );
-}
+//       {<Card title="Collected" value={card.totalPaidInvoices} type="collected" />}
+//       {<Card title="Pending" value={card.totalPendingInvoices} type="pending" />}
+//       {<Card title="Total Invoices" value={card.numberOfInvoices} type="invoices" />}
+//       {<Card
+//         title="Total Customers"
+//         value={card.numberOfCustomers}
+//         type="customers"
+//       />}
+//     </>
+//   );
+// }
 
 export function Card({
   title,
